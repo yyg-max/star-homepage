@@ -378,19 +378,19 @@ export const jojo = [
 sites.push({
   title: '关于我',
   url: '',
-  description: (
-    <>
-      <div>我是毛呆，一名前端开发工程师。</div>
-      <div>
-        全职接单中，也欢迎技术交流。
-      </div>
-      <div>
-        邮箱：<a href="mailto:aweikalee@163.com">aweikalee@163.com</a>
-        <br />
-        微信(base64)：YXdlaWth
-      </div>
-    </>
-  ),
+  // description: (
+  //   <>
+  //     <div>我是毛呆，一名前端开发工程师。</div>
+  //     <div>
+  //       全职接单中，也欢迎技术交流。
+  //     </div>
+  //     <div>
+  //       邮箱：<a href="mailto:aweikalee@163.com">aweikalee@163.com</a>
+  //       <br />
+  //       微信(base64)：YXdlaWth
+  //     </div>
+  //   </>
+  // ),
   points: jojo[Math.floor(Math.random() * jojo.length)],
   // prettier-ignore
   lines: [
