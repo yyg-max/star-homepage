@@ -8,10 +8,10 @@ export interface ISite {
 
 export const sites: ISite[] = [
   {
-    title: '毛呆账簿',
-    url: 'https://ledger.maodai.site',
+    title: '影迷窝',
+    url: 'https://yingmiwo.me/index',
     description:
-      '自用记账工具，目前只做了基础功能，扩展的功能以后需要用的时候再慢慢加。',
+      '免费无广告影视。',
     // prettier-ignore
     points: [
       -46,  75,
@@ -57,10 +57,10 @@ export const sites: ISite[] = [
     ],
   },
   {
-    title: '旅游手账',
-    url: 'https://tripnote.maodai.site',
+    title: 'chagpt',
+    url: 'https://chat.yingmiwo.me',
     description:
-      '行程制作及展示。针对制作行程单以及旅游过程中的诸多痛点进行了改善。',
+      '免费AI。',
     // prettier-ignore
     points: [
       -46,  75,
@@ -101,10 +101,10 @@ export const sites: ISite[] = [
     ],
   },
   {
-    title: "毛呆's Blog",
-    url: 'https://blog.maodai.site',
+    title: "博客巢",
+    url: 'https://blog.yingmiwo.me',
     description:
-      '技术博客，没啥文章。大多死于草稿箱（然后丢进了另一个加密的博客中给自己看）',
+      '技术博客，没啥文章。',
     // prettier-ignore
     points: [
       -44, -58,
@@ -138,104 +138,104 @@ export const sites: ISite[] = [
      11, 13,
     ],
   },
-  {
-    title: 'Syncplayer 同步播放器',
-    url: 'https://syncplayer.maodai.site',
-    description:
-      '通过 WebSocket 解决异地同步观影，当前仅支持选择本地文件进行播放。',
-    // prettier-ignore
-    points: [
-      -60,  80,
-      75,   0,
-     -60, -80,
-     -30,  24,
-      15,   0,
-     -30, -24,
-    ],
-    // prettier-ignore
-    lines: [
-      0, 1,
-      1, 2,
-      2, 0,
-      3, 4,
-      4, 5,
-      5, 3,
-    ],
-  },
-  {
-    title: 'JavaScript 抽象相等比较',
-    url: 'https://aweikalee.github.io/abstract-equality-comparison/',
-    description:
-      '展示 JavaScript 抽象相等的比较过程，帮助新人更好理解隐式转换。',
-    // prettier-ignore
-    points: [
-      -25,  80,
-      -28, -14,
-      -68, -15,
-      -84,  18,
-       74,  69,
-       44,  87,
-       19,  57,
-       74,  15,
-       55, -19,
-       16,  -1,
-      -80, -45,
-      -22, -45,
-      -80, -75,
-      -22, -75,
-       80, -45,
-       22, -45,
-       80, -75,
-       22, -75,
-    ],
-    // prettier-ignore
-    lines: [
-      0,  1,
-      1,  2,
-      2,  3,
-      4,  5,
-      5,  6,
-      6,  7,
-      7,  8,
-      8,  9,
-     10, 11,
-     12, 13,
-     14, 15,
-     16, 17,
-    ],
-  },
-  {
-    title: 'Github',
-    url: 'https://github.com/aweikalee',
-    description: 'aweikalee',
-    // prettier-ignore
-    points: [
-      -52,  59,
-      -26,  49,
-       25,  47,
-       53,  61,
-       55,  34,
-       62, -13,
-       18, -44,
-       26, -94,
-       84, -55,
-       89,  46,
-       36,  92,
-      -58,  82,
-      -94,  35,
-      -91, -58,
-      -29, -94,
-      -26, -73,
-      -55, -67,
-      -74, -43,
-      -48, -55,
-      -25, -58,
-      -17, -45,
-      -61,  -9,
-      -53,  34,
-    ],
-    lines: [],
-  },
+  // {
+  //   title: 'Syncplayer 同步播放器',
+  //   url: 'https://syncplayer.maodai.site',
+  //   description:
+  //     '通过 WebSocket 解决异地同步观影，当前仅支持选择本地文件进行播放。',
+  //   // prettier-ignore
+  //   points: [
+  //     -60,  80,
+  //     75,   0,
+  //    -60, -80,
+  //    -30,  24,
+  //     15,   0,
+  //    -30, -24,
+  //   ],
+  //   // prettier-ignore
+  //   lines: [
+  //     0, 1,
+  //     1, 2,
+  //     2, 0,
+  //     3, 4,
+  //     4, 5,
+  //     5, 3,
+  //   ],
+  // },
+  // {
+  //   title: 'JavaScript 抽象相等比较',
+  //   url: 'https://aweikalee.github.io/abstract-equality-comparison/',
+  //   description:
+  //     '展示 JavaScript 抽象相等的比较过程，帮助新人更好理解隐式转换。',
+  //   // prettier-ignore
+  //   points: [
+  //     -25,  80,
+  //     -28, -14,
+  //     -68, -15,
+  //     -84,  18,
+  //      74,  69,
+  //      44,  87,
+  //      19,  57,
+  //      74,  15,
+  //      55, -19,
+  //      16,  -1,
+  //     -80, -45,
+  //     -22, -45,
+  //     -80, -75,
+  //     -22, -75,
+  //      80, -45,
+  //      22, -45,
+  //      80, -75,
+  //      22, -75,
+  //   ],
+  //   // prettier-ignore
+  //   lines: [
+  //     0,  1,
+  //     1,  2,
+  //     2,  3,
+  //     4,  5,
+  //     5,  6,
+  //     6,  7,
+  //     7,  8,
+  //     8,  9,
+  //    10, 11,
+  //    12, 13,
+  //    14, 15,
+  //    16, 17,
+  //   ],
+  // },
+  // {
+  //   title: 'Github',
+  //   url: 'https://github.com/aweikalee',
+  //   description: 'aweikalee',
+  //   // prettier-ignore
+  //   points: [
+  //     -52,  59,
+  //     -26,  49,
+  //      25,  47,
+  //      53,  61,
+  //      55,  34,
+  //      62, -13,
+  //      18, -44,
+  //      26, -94,
+  //      84, -55,
+  //      89,  46,
+  //      36,  92,
+  //     -58,  82,
+  //     -94,  35,
+  //     -91, -58,
+  //     -29, -94,
+  //     -26, -73,
+  //     -55, -67,
+  //     -74, -43,
+  //     -48, -55,
+  //     -25, -58,
+  //     -17, -45,
+  //     -61,  -9,
+  //     -53,  34,
+  //   ],
+  //   lines: [],
+  // },
 ]
 
 /* 关于我 */
